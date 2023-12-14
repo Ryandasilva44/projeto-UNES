@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* cabecalho */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* links */
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 10px;
+}
+
+/* logo-unes */
+
+.logo-unes {
+  margin: 10px;
+}
+
+/* capa da universidade */
+
+.capa-unes {
+  width: 100%;
+}
+
+/* about */
+
+.about {
+  font-weight: 700;
+  margin: 15px;
+}
+
+/* paragrapho */
+
+.paragrapho {
+  margin: 20px;
+  font-weight: 500;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  font-weight: 600;
+  margin: 30px;
+}
+
+/* estização do quem-somos.html */
+
+.motivation {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.material {
+  margin: 0px 0px 10px 30px;
+}
+
+.object {
+  margin: 10px 0px 20px 0px;
+}
+
+/* estilização do contado.html */
+
+.title-pricipal {
+  margin: 40px 0px 0px 50px;
+}
+
+.formulario-unes {
+  margin: 0px 0px 0px 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+input,
+textarea {
+  border: none;
+}
+
+.btn {
+  margin: 0px 0px 0px 180px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #0000ff;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .logo-unes {
+    margin: 0.7rem 0rem 0rem 5.5rem;
+  }
+
+  .title-pricipal {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .paragrapho-01 {
+    text-align: center;
+    font-weight: 400;
+    margin: 0rem 0rem 0rem 0.5rem;
+  }
+
+  input {
+    border: 0.1rem solid #000;
+  }
+
+  textarea {
+    border: 0.1rem solid #000;
+  }
+
+  .formulario-unes {
+    margin: 0rem 0rem 0rem 5rem;
+  }
+
+  #btn {
+    width: 3.5rem;
+    height: 1rem;
+  }
+
+  .center{
+    margin: 7rem 0rem 0rem -4rem;
+
+  }
+
+
+}
